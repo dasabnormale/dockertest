@@ -17,7 +17,7 @@ RUN npm install
 COPY . .
 
 # Freigeben des Ports, unter dem der Express-Server läuft
-EXPOSE 8001
+EXPOSE 3000
 
 # Starten des definierten npm-Scripts
 CMD [ "npm", "start" ]
